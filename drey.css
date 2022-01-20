@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(40, 128, 211),rgb(36, 30, 30));
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Righeteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.conteudo-img{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid aliceblue;
+    padding-top: 40px;
+    font-family: 'Righeteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid aliceblue;
+}
+
+.texto{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
